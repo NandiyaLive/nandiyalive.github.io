@@ -1,0 +1,361 @@
+html {
+    overflow: hidden;
+  }
+  
+  /* ========================================== Dark Mode ==========================================*/
+  
+  body {
+    scroll-behavior: smooth;
+    background: #1d1d1d;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  a,
+  a:hover {
+    color: inherit;
+  }
+  .deco,
+  .deco:hover {
+    color: springgreen;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .card .subtitle {
+    color: white;
+  }
+  .card {
+    color: white;
+    background-color: #252525;
+  }
+  
+  .avatar img {
+    width: 350px;
+    border: 2px solid springgreen;
+    border-radius: 100%;
+    padding: 5px;
+    animation: zoom 4s infinite;
+  }
+  
+  hr {
+    background-color: springgreen;
+  }
+  
+  /* ========================================== Light Mode ==========================================*/
+  
+  .lite-mode {
+    background-color: rgb(223, 223, 223);
+    color: #1d1d1d;
+  }
+  .lite-mode a,
+  a:hover {
+    color: inherit;
+  }
+  .lite-mode .deco {
+    color: rgb(31, 90, 141);
+  }
+  
+  .lite-mode .title {
+    color: #1d1d1d;
+  }
+  .lite-mode .card .subtitle {
+    color: #1d1d1d;
+  }
+  .lite-mode .card {
+    color: #1d1d1d;
+    background-color: rgb(196, 199, 202);
+  }
+  .lite-mode .avatar img {
+    border: 2px solid steelblue;
+  }
+  .lite-mode hr {
+    background-color: steelblue;
+  }
+  
+  /* ============================================ Globle =============================================*/
+  
+  section {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  /* Navbar */
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    line-height: 40px;
+  }
+  
+  nav ul {
+    line-height: 40px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    text-align: right;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+  }
+  
+  /* Paddings */
+  .q {
+    padding: 5% 0 0 0;
+  }
+  
+  .home-xyz {
+    padding-top: 10vh;
+  }
+  
+  .xyz {
+    padding-top: 5vh;
+  }
+  
+  .bio {
+    padding-top: 50px;
+  }
+  
+  /* Typhography */
+  
+  .head-title {
+    font-size: 45px;
+  }
+  
+  .size-1 {
+    font-size: 45px;
+  }
+  .size-4 {
+    font-size: 15px;
+  }
+  .ref {
+    padding-top: 5px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .head-size-2 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  /* Other */
+  
+  .social-icons {
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+  .social-icons i:hover {
+    animation: xzoom 1s;
+  }
+  hr {
+    width: 70%;
+    position: relative;
+    left: 15%;
+  }
+  
+  .heal img {
+    height: 45px;
+    padding-right: 10px;
+  }
+  
+  .wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  .love {
+    display: inline-block;
+    position: relative;
+    top: 0.1em;
+    font-size: 0.8em;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-animation: love 0.5s infinite linear alternate-reverse;
+    -moz-animation: love 0.5s infinite linear alternate-reverse;
+    animation: love 0.5s infinite linear alternate-reverse;
+    color: red;
+  }
+  .lable {
+    font-size: 10px;
+    padding: 2px;
+    background-color: crimson;
+    display: inline;
+  }
+  
+  footer {
+    padding-top: 220px;
+  }
+  
+  footer p {
+    font-size: 13px;
+  }
+  
+  /* Work With */
+  
+  ul.work-with {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul.work-with li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5em 0 0.7em 0;
+    padding-right: 10px;
+    position: relative;
+    vertical-align: top;
+  }
+  
+  .work-with img {
+    height: 45px;
+  }
+  
+  .preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(23, 22, 22);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: opacity 0.3s linear;
+  }
+  
+  
+  /* ============================================ Mobile ============================================ */
+  
+  @media (max-width: 1080px) {
+    footer {
+      top: 0;
+      padding-top: 100px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .xyz {
+      padding-top: 0;
+    }
+    .home-xyz {
+      padding-top: 0;
+    }
+    .q {
+      padding: 10 0 0 0;
+    }
+    nav {
+      padding-bottom: 15px;
+    }
+    nav ul {
+      text-align: center;
+    }
+    .size-1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 15px;
+    }
+    .home-xyz {
+      padding-top: 5vh;
+    }
+    .bio {
+      padding-top: 10px;
+    }
+    .heal {
+      padding-bottom: 10px;
+    }
+    .avatar img {
+      width: 90%;
+    }
+    footer {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  /* ============================================= Animations ======================================= */
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  @-webkit-keyframes love {
+    to {
+      -webkit-transform: scale(1.4);
+    }
+  }
+  
+  @-moz-keyframes love {
+    to {
+      -moz-transform: scale(1.4);
+    }
+  }
+  
+  @keyframes love {
+    to {
+      transform: scale(1.4);
+    }
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
