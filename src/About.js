@@ -11,16 +11,6 @@ const About = () => {
                 spending my time reading novels, listening into music and podcasts, binge watching TV Series and{" "}
                 <a href="https://en.wikipedia.org/wiki/Masala_film" target="_blank "><u>Masala films</u></a> 🙊
                 </p>
-            <p>
-                <i className="fa fa-heart love" style={{ color: "red" }} title="Love 👋 "></i>
-                <span style={{ fontWeight: "bold" }}>{" "}
-                    <a href="https://en.wikipedia.org/wiki/Rashmika_Mandanna " target="_blank "
-                        title="Rashmika Mandanna (born 5 April 1996) is an Indian film actress and model who works predominantly in Telugu and Kannada films.She is popularly dubbed by the media and Kannada film industry as the 'Karnataka Crush'.">Rashmika
-                        Mandanna
-          </a>
-                </span>
-            </p>
-
 
             <div className="grid">
                 <div>
