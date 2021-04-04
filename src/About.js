@@ -15,7 +15,7 @@ const About = () => {
             <div className="grid pt-1">
                 <div>
                     <p className="subhead">WHAT I USE </p>
-                    <p>OS : Linux Lite</p>
+                    <p>OS : Xubuntu</p>
                     <p>Browsers : Firefox / Brave</p>
                     <p>Code Editor : Visual Studio Code</p>
                     <p>Hardware : HP Compaq Elite 8300</p>
