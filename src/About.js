@@ -12,7 +12,7 @@ const About = () => {
                 <a href="https://en.wikipedia.org/wiki/Masala_film" target="_blank "><u>Masala films</u></a> 🙊
                 </p>
 
-            <div className="grid">
+            <div className="grid pt-1">
                 <div>
                     <p className="subhead">WHAT I USE </p>
                     <p>OS : Linux Lite</p>
