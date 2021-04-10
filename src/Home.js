@@ -18,18 +18,18 @@ const Home = () => {
                     <p>Tech Enthusiast • Web Developer • Linux User</p>
                     <hr />
                     <div className="social-icons">
-                        <a href="https://twitter.com/NandiyaLive" title="Twitter" target="_blank" rel="noreferrer"><i
-                            className="fab fa-twitter"></i></a>
-
-                        <a href="https://instagram.com/NandiyaLive" title="Instagram" target="_blank" rel="noreferrer"><i
-                            className="fab fa-instagram"></i></a>
-
-                        <a href="https://linkedin.com/neranjanaprasad" title="Linkedin" target="_blank" rel="noreferrer"><i
+                        <a href="www.linkedin.com/in/neranjanaprasad" title="Linkedin" target="_blank" rel="noreferrer"><i
                             className="fab fa-linkedin"></i></a>
 
                         <a href="https://github.com/NandiyaLive" title="GitHub" target="_blank" rel="noreferrer"><i
                             className="fab fa-github"></i></a>
 
+                        <a href="https://twitter.com/NandiyaLive" title="Twitter" target="_blank" rel="noreferrer"><i
+                            className="fab fa-twitter"></i></a>
+
+                        <a href="https://instagram.com/NandiyaLive" title="Instagram" target="_blank" rel="noreferrer"><i
+                            className="fab fa-instagram"></i></a>
+        
                         <a href="https://t.me/NandiyaLive" title="Telegram" target="_blank" rel="noreferrer"><i
                             className="fab fa-telegram-plane"></i></a>
                     </div>
