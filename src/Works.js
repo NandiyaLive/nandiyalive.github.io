@@ -5,7 +5,6 @@ const Works = () => {
                 <div className="card">
                     <p className="sm-2 is-500 pb-1-sm">Instagram Downloader Bot</p>
                     <p>A bot that can help you to download media from Instagram over Telegram.</p>
-                    <br />
                     <p className="ref">
                         <a href="https://github.com/NandiyaLive/xIGDLBot" title="View on GitHub" target="_blank" rel="noreferrer">
                             <i className="fab fa-github"></i>
@@ -19,7 +18,6 @@ const Works = () => {
                 <div className="card">
                     <p className="sm-2 is-500 pb-1-sm">PSARips Links Scraper</p>
                     <p>A simple Python script to extract download links from PSARips website.</p>
-                    <br />
                     <p className="ref">
                         <a href="https://github.com/NandiyaLive/PSALinkGrabber" title="View on GitHub" target="_blank" rel="noreferrer">
                             <i className="fab fa-github"></i>
