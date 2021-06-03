@@ -16,9 +16,6 @@ body {
   padding: 20px 0;
   overflow: hidden;
   height: 100vh;
-}
-
-body * {
   transition: 0.4s;
 }
 
@@ -138,7 +135,6 @@ a {
       border-radius: 100%;
       padding: 5px;
       animation: zoom 4s infinite;
-      transition: 1s;
       display: block;
       margin: 0 auto;
     }
