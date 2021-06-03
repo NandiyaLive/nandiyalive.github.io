@@ -18,6 +18,10 @@ body {
   height: 100vh;
 }
 
+body * {
+  transition: 0.4s;
+}
+
 .preloader {
   display: flex;
   justify-content: center;
