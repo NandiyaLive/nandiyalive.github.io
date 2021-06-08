@@ -11,7 +11,7 @@ const Home = () => {
         <section className="home">
             <div className="grid">
                 <div className="avatar">
-                    <img src="avatar.png" alt="" />
+                    <img src="avatar.webp" alt="" />
                 </div>
                 <div className="text-left bio">
                     <p className="md-2 is-500">Neranjana <br />Prasad</p>
