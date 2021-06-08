@@ -43,10 +43,8 @@ const Home = () => {
                     <i className="fa fa-times-circle pb-2" onClick={closeContactForm}></i>
                     <p className="sm-4 is-500 capitalized">Send a message</p>
                     <form action="https://formspree.io/xyynwlly" method="POST">
-                        <div className="grid">
-                            <input type="text" id="name" name="name" placeholder="Name" required />
-                            <input type="email" id="email" name="email" placeholder="Email" required />
-                        </div>
+                        <input type="text" id="name" name="name" placeholder="Name" required />
+                        <input type="email" id="email" name="email" placeholder="Email" required />
                         <input type="subject" id="subject" name="subject" placeholder="Subject" />
                         <textarea name="message" id="message" cols="" rows=""
                             placeholder="Leave Your Message" required></textarea>
