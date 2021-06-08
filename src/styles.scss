@@ -156,6 +156,7 @@ a {
     background-color: var(--main-color);
     color: #222226;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
     width: max-content;
     padding: 10px 15px;
   }
@@ -196,12 +197,12 @@ a {
     }
 
     form {
-      font-family: 'Inter', sans-serif;
       display: flex;
       flex-direction: column;
     }
 
     input{
+      font-family: 'Inter', sans-serif;
       margin: 5px 0;
       font-size: 14px;
       outline: none;
@@ -213,6 +214,7 @@ a {
     }
 
     textarea {
+      font-family: 'Inter', sans-serif;
       margin: 5px 0;
       font-size: 14px;
       padding: 8px;
