@@ -54,11 +54,6 @@ body {
     color: #1d1d1d;
     margin: 0;
   }
-    footer {
-      a {
-        color: #4d5061;
-      }
-    }
 }
 
   .home {
@@ -116,7 +111,6 @@ a {
 
 .home {
   .bio {
-
     p{
       padding: 5px 0;
     }
@@ -353,7 +347,7 @@ a {
     }
 
     a {
-      color: #fff94a;
+      color: var(--main-color);
       font-weight: 500;
     }
 
