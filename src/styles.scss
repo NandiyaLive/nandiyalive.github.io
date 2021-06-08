@@ -190,16 +190,13 @@ a {
       max-width: 400px;
       width: 100%;
 
-      .grid {
-        gap:10px;
-      }
-
       img {
         margin-top: 5px;
       }
     }
 
     form {
+      font-family: 'Inter', sans-serif;
       display: flex;
       flex-direction: column;
     }
