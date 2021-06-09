@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import './utilities.css';
 import './styles.scss';
 
@@ -12,5 +11,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.querySelector('main')
 );
-
-reportWebVitals();
