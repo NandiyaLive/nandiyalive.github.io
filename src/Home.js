@@ -34,7 +34,7 @@ const Home = () => {
                             className="fab fa-telegram-plane"></i></a>
                     </div>
 
-                    <button className="btn" onClick={openContactForm}>Hire Me</button>
+                    <button className="btn" onClick={openContactForm}>Contact</button>
                 </div>
             </div>
 
