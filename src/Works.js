@@ -52,7 +52,7 @@ const Works = () => {
                 <p>Made with <i className="fa fa-heart"></i>+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <i className="fab fa-react"></i></a> by
                     <a href="https://twitter.com/NandiyaLive" target="_blank" rel="noreferrer"> @NandiyaLive</a>
                 </p>
-                <p>Hosted on <a href="https://nelify.com" target="_blank" rel="noreferrer">Netlify</a>.
+                <p>Hosted on <a href="https://netlify.com" target="_blank" rel="noreferrer">Netlify</a>.
                     Source code on <a href="https://github.com/NandiyaLive/nandiyalive.github.io" target="_blank" rel="noreferrer">Github</a>.
                 </p>
             </footer>
