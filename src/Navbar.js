@@ -14,6 +14,7 @@ const Navbar = () => {
                         <Link to="/"><li>Home</li></Link>
                         <Link to="/about"><li>About</li></Link>
                         <Link to="/works"><li>Works</li></Link>
+                        <li><a href="https://blog.neranjana.ga">Blog</a></li>
                         <li><p onClick={handleClick}><i className="fa fa-adjust"></i></p></li>
                     </ul>
                 </nav>
