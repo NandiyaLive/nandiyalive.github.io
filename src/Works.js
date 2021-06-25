@@ -32,7 +32,7 @@ const Works = () => {
                         <a href="https://github.com/NandiyaLive/NewsAPI" title="View on GitHub" target="_blank" rel="noreferrer">
                             <i className="fab fa-github"></i>
                         </a>
-                        <a href="https://api.neranjana.ga/news" title="View API" target="_blank" rel="noreferrer">
+                        <a href="https://api.neranjana.tk/news" title="View API" target="_blank" rel="noreferrer">
                             <i className="fa fa-globe"></i>
                         </a>
                     </p>
